@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+button{
+    margin: 5px;;
+}
+
+#field{
+    display: flex;
+    justify-content: center;
+    margin: 5px;;
+    /* visibility: hidden; */
+}
+#expense{
+    display: flex;
+    justify-content: center;
+    margin: 10px;;
+}
+input{
+    margin: 5px;
+}
