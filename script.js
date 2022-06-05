@@ -3,7 +3,16 @@ var add = document.getElementById('add');
 var divHide = document.getElementById('expense');
 var expense = document.getElementById('expenseAdd');
 var field = document.getElementById('field');
+var expensive = document.getElementById('expensive');
 
+
+income.onclick = function(){
+    document.getElementById("field").style.visibility = "visible";
+}
+
+expensive.onclick = function(){
+    document.getElementById("expense").style.visibility = "visible";
+}
 
 add.addEventListener('click', function(){
     var personIncome = document.getElementById('personIncome').value;
@@ -19,8 +28,7 @@ expense.addEventListener('click', function(){
     alert(expenseIncome  + ', ' + expenseSalary);
 })
 
-var para = document.getElementById('para');
-display.addEventListener('click', function(){
-    para.innerHTML = personIncome;
-})
+
+
+
 
